@@ -1,9 +1,9 @@
 flatlist = []
 def flatten(l):
     for e in l:
-        if type(e)==list: 
+        if type(e) is list: 
             for item in e:
-                flat(i)
+                flatten(i)
         else:
             flatlist.append(e)
-    return flat_list
+    return flatlist
