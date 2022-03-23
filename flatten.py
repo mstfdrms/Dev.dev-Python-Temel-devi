@@ -4,6 +4,6 @@ def flatten(l):
         if type(e) is list: 
             for item in e:
                 flatten(i)
-        else:
+        elif:
             flatlist.append(e)
     return flatlist
